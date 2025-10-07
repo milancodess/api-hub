@@ -1,0 +1,30 @@
+{
+  "name": "api-hub",
+  "version": "1.0.0",
+  "description": "A universal API hub that provides anime, downloader, tools, news and more — usable as both NPM package and Express API server.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "api",
+    "hub",
+    "express",
+    "anime",
+    "downloader",
+    "tools",
+    "news",
+    "npm-package",
+    "multi-api"
+  ],
+  "author": "milancodess",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
